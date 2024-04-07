@@ -1,0 +1,26 @@
+/* Ao usar o *{}, estou usando um seletor universal, onde será estilizado tudo da pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/*seletor de ancoras*/
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* seletor ul de listas indefinidas*/
+
+ul{
+    list-style: none; /*para tirar as bolinhas que ficam nas listas*/
+}
+
+img{
+    max-width: 100%;
+}
